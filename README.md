@@ -1,12 +1,12 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+CURSO: ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
 
-`DISCIPLINA`
+DISCIPLINA: Projeto - Desenvolvimento de uma Aplicação Interativa
 
-`SEMESTRE`
+SEMESTRE: 2022.1
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O objetivo principal deste projeto é a criação de um sistema onde o cliente personaliza sua refeição, dispondo de ferramentas práticas e funcionais para controle de tipo, porções, quantidades e preços.
 
 ## Integrantes
 
