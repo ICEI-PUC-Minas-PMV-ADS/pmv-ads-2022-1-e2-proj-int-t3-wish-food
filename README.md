@@ -6,7 +6,7 @@ DISCIPLINA: Projeto - Desenvolvimento de uma Aplicação Interativa
 
 SEMESTRE: 2022.1
 
-O objetivo principal deste projeto é a criação de um sistema onde o cliente personaliza sua refeição, dispondo de ferramentas práticas e funcionais para controle de tipo, porções, quantidades e preços.
+O objetivo principal deste projeto é a criação de um sistema onde o cliente personaliza sua refeição, dispondo de ferramentas práticas e funcionais para controle de alimentos, porções, quantidades e preços.
 
 ## Integrantes
 
