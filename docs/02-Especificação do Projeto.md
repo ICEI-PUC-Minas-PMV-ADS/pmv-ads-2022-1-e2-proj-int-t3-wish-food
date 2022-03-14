@@ -1,103 +1,83 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A definição precisa do problema e dos pontos mais relevantes deste projeto foi elaborada por meio de entrevistas com os usuários, além de observação de suas rotinas. O resultado deste processo foi consolidado em personas e histórias de usuários que estão listadas seguir.
 
 ## Personas
+As personas elaboradas no processo de compreeensão do problema estão listadas nas figuras a seguir:
+  
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+|Paulo Andre    | Informações:                       |                                        |
+|--------------------|------------------------------------|----------------------------------------|
+|![image](https://user-images.githubusercontent.com/90978551/158086116-65bbaff2-06c5-489a-83d3-5d191e5324cd.png)| **Idade:** 28 <br> **Ocupação:** Personal trainer<br> |**Aplicativos:**<br>● Instagram<br>● Facebook<br>●  Whatsapp|
+|**Motivações:**<br>● alimentação saudável<br>● Melhoraro corpo<br>|**Frustrações:**<br>● Comer besteira as vezes<br>● Dificuldade em manter uma dieta <br>|**Hobbies:**<br>● Fazer exercicios<br>● Corrida <br>● Viajar |
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+|isabela martins   | Informações:                       |                                        |
+|--------------------|------------------------------------|----------------------------------------|
+|![image](https://user-images.githubusercontent.com/90978551/158086108-bce2d747-cbd5-467a-add9-5d3cd41fceab.jpg)| **Idade:** 34 <br> **Ocupação:** Advogada |**Aplicativos:**<br>● Whatsapp<br>● Gmail<br>●  Apps de Bancos|
+|**Motivações:**<br>● Uma plataforma com <br> pagamento facil <br>● Acesso a comida caseira<br>● Montar meu prato|**Frustrações:**<br>● Demora na entrega de alguns pedidos<br>● Descrição de produtos não bate com a foto <br> divulgada nos aplicativos.|**Hobbies:**<br>● Caminhar com o <br> cachorro<br>● Explorar a cidade <br>● Pratica natação|
+
+|Fernando Oliveira   | Informações:                       |                                        |
+|--------------------|------------------------------------|----------------------------------------|
+|![image](https://user-images.githubusercontent.com/90978551/158086112-e8d9cd0c-f1e5-46e9-aaa9-4ce7640deb24.jpg)| **Idade:** 27 <br> **Ocupação:** Medico cardiologista|**Aplicativos:**<br>● Twitter<br>● Instagram<br>● Facebook|
+|**Motivações:**<br>● Encontrar uma maneira <br> rápida e fácil de comer saudável.|**Frustrações:** Não conseguir tempo pra cozinhar <br> na sua casa ou trabalho.|**Hobbies:**<br>● Jogar videogame<br>● Assistir séries <br>● Malhar|
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na interpretação da realidade das personas identificadas para este projeto por meio das informações coletadas, foram registradas as histórias de usuários listadas a seguir:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|isabela martins     | Receber entrega através do delivery | Agilizar e otimizar meu tempo |
+|isabela martins     | Uma plataforma que exiba <br> o cardápio de alimentos| escolher e personalisar meu prato |
+|isabela martins     | Uma plataforma onde haja um sistema <br> de pagamento digital | Poder pagar, com <br> maior facilidade|
+|Fernando Oliveira   | Ter alimentos com tempero caseiro sem ter <br> que cozinhar | Maior praticidade e menos tempo gasto com <br> preparo de refeições |
+|Fernando Oliveira   | Ter acesso a quantidade de porçoes com preço de cada alimento adicionado| Poder saber quanto custa cada alimento
+|Paulo Andre         | Poder adicionar e remover  <br> incredienteda refeição. | <br> Ter maior liberdade na hora de perzonalisar o prato. |
+|Paulo Andre         | Poder escolher o peso de cada ingrediente | controlar dieta micros e macros nutrientes. |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+Os requisitos do projeto descrevem as características necessárias para alcançar a solução do problema apresentado de modo satisfatório, delimitando assim o escopo funcional do projeto. Os requisitos podem ser divididos em requisitos funcionais, que descrevem as funcionalidades que o sistema deve apresentar para possibilitar a interação dos usuários, e em requisitos não-funcionais, que descrevem as qualidades que o sistema e suas funcionalidades devem apresentar para sua aceitação. Os requisitos funcionais e não funcionais do projeto são apresentados nas tabelas a seguir.
 
 ### Requisitos Funcionais
-
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-01| O site deve apresentar um mecanismo de busca que permita ao consumidor escolher os ingredientes que compõem a refeição. | ALTA | 
+|RF-02| O site deve permitir que o usuário crie uma conta para salvar suas informações (local de entrega, meios de pagamento, histórico de pedidos, etc). | ALTA | 
+|RF-03| O site deve permitir ao usuário visualizar preço de cada porção de alimento | MÉDIA |
+|RF-04| O site deve permitir que o consumidor adicione e remova items e pesos da sua refeição . | MÉDIA|
+|RF-05| O site deve apresentar na página principal a ferramenta para formação da nova refeição  | MÉDIA |
+|RF-06| A plataforma deve fornecer ao cliente uma forma de filtra os alimentos por categorias | BAIXA |
+|RF-07| O site deve permitir que o usuário cadastrado adicione os produtos a um carrinho de compras e submeta um pedido de compra. | ALTA |
+|RF-08| O site deve permitir que o usuário veja o valor final de sua refeição. | ALTA |
+
 
 ### Requisitos não Funcionais
 
+A tabela abaixo contém os requisitos não funcionais do projeto, também acompanhados de sua prioridade de entrega.
+
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-01|  processo de cadastro de cliente deve ser fácil e intuitivo | ALTA | 
+|RNF-02| O processo de somar e subtrair valores das refeiçoes deve estar funcionado 100% | ALTA |
+|RNF-03| O site deverá utilizar banco de dados relacional (MySQL). | ALTA |
+|RNF-04| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku) | ALTA |
+|RNF-05| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada | MÉDIA|
+|RNF-06| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox) | ALTA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+A tabela abaixo contém a a lista das questões que limitam a execução do projeto e que portanto impõem obrigações claras para seu desenvolvimento.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|RE-01|	O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 26/06/2022.
+|RE-02|	A plataforma deverá se restringir às linguagens (e seus respectivos frameworks) HTML, CSS, JavaScript.
+|RE-03|	A equipe não pode subcontratar o desenvolvimento do trabalho.
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+![image](https://user-images.githubusercontent.com/90978551/158095656-7686fd52-0581-4635-88de-66265c7966af.png)
