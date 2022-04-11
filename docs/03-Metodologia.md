@@ -29,7 +29,7 @@ O grupo escolheu utilizar um processo baseado em GitFlow para administrar a gest
 
 |Ambiente                          | Plataforma  | Link de acesso|
 |----------------------------------| ----------- | --------------|
-|Repositório de código fonte       | GitHub      | < |
+|Repositório de código fonte       | GitHub      | < https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t3-wish-food>|
 |Documentos de Projeto             | Google Docs | <https://docs.google.com/document/d/1HAimmlUFhvJCZO8j0h109bAsGfBKMImDqT6E6-XhpHA/edit?usp=sharing> |
 |Projeto de interface e Wireframes | Figma       | <https://www.figma.com/file/IwoHUuI3hmtOgOxckKFwOb/Untitled?node-id=22%3A600> |
 |Gerenciamento do Projeto          | Trello      | <> |
